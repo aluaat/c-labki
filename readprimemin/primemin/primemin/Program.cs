@@ -24,10 +24,19 @@ namespace primemin
                     continue;
 
                 }
-                
-                
 
-                for (int j = 2; j < int.Parse(elem); j++)
+
+                for (int j = 2; j <=int.Parse(elem); j++)
+                {
+                    if (int.Parse(elem) % j == 0)
+                    {
+                        Prime = false;
+
+
+                    }
+                }
+
+                /* for (int j = 2; j < int.Parse(elem); j++)
                 {
                     if (int.Parse(elem) % j == 0)
                     {
@@ -35,7 +44,7 @@ namespace primemin
                         
 
                     }
-                }
+                }*/
                 if (Prime == true) //0 1 1 2 3 4 5 6 6 7 7 
                 {
                   /* if(min> int.Parse(elem))

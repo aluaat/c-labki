@@ -11,6 +11,7 @@ namespace minmax
     {
         static void Main(string[] args)
         {
+            
             string line0 = System.IO.File.ReadAllText(@"C:\Users\user\c#labki\textfile.txt"); //1 2 3 4 5 6 -5 -8 0 input txt
             string[] array = line0.Split(' '); //sozdaem massiv ,razdelyaem po probelam
             int mx = -999999999;

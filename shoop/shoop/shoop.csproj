@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5AFD7BE2-C41B-4ADA-B701-FA7252656704}</ProjectGuid>
+    <ProjectGuid>{8EA11C4A-BC40-494F-9C11-A784879C23B0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>minmax</RootNamespace>
-    <AssemblyName>minmax</AssemblyName>
+    <RootNamespace>shoop</RootNamespace>
+    <AssemblyName>shoop</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

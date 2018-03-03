@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minmax", "minmax\minmax.csproj", "{5AFD7BE2-C41B-4ADA-B701-FA7252656704}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shoop", "shoop\shoop.csproj", "{8EA11C4A-BC40-494F-9C11-A784879C23B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5AFD7BE2-C41B-4ADA-B701-FA7252656704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5AFD7BE2-C41B-4ADA-B701-FA7252656704}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5AFD7BE2-C41B-4ADA-B701-FA7252656704}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5AFD7BE2-C41B-4ADA-B701-FA7252656704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA11C4A-BC40-494F-9C11-A784879C23B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA11C4A-BC40-494F-9C11-A784879C23B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA11C4A-BC40-494F-9C11-A784879C23B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA11C4A-BC40-494F-9C11-A784879C23B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {98D1D87E-F781-489B-B2D6-5DAF7C941F7A}
+		SolutionGuid = {2BB05C15-1698-4455-86FD-6A4E79B69B97}
 	EndGlobalSection
 EndGlobal
