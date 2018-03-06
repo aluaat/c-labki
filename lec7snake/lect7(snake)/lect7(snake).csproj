@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8EA11C4A-BC40-494F-9C11-A784879C23B0}</ProjectGuid>
+    <ProjectGuid>{A126A450-8D70-4FC5-B7ED-C08FB99B47F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>shoop</RootNamespace>
-    <AssemblyName>shoop</AssemblyName>
+    <RootNamespace>lect7_snake_</RootNamespace>
+    <AssemblyName>lect7%28snake%29</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="product.cs" />
+    <Compile Include="eda.cs" />
+    <Compile Include="point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shop.cs" />
+    <Compile Include="snake.cs" />
+    <Compile Include="Wall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
