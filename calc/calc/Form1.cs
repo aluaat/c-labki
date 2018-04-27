@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace calc
 {
+    //cifri prinimaut odinakovii deistvya "pri najatie na lubboi button (0-9)->dobavyat cifru :k odnomu kliku prekripit'
+
     public partial class Form1 : Form
     {
         public static calcc  calcul;
@@ -46,8 +48,9 @@ namespace calc
             textBox1.Clear();
         }
         
-        private void button16_Click(object sender, EventArgs e)
+        private void button16_Click(object sender, EventArgs e) //klick na cifri (0-9)
         {
+            //nado sozdat' ob'ekt ot button-a
             Button btn = sender as Button;
             if (calcul.operation==calcc.Operstions.NONE || calcul.operation==calcc.Operstions.NUMBER)
             {
@@ -89,6 +92,7 @@ namespace calc
             calcul.operation = calcc.Operstions.PLUS;
             calcul.savefirstnumber(textBox1.Text);
             cnt = 1;
+            
 
         }
 
@@ -189,16 +193,24 @@ namespace calc
 
         private void button26_Click(object sender, EventArgs e)
         {
-            calcul.savefirstnumber(textBox1.Text);
-            if(calcul.firstnumber>0)
+           // calcul.savefirstnumber(textBox1.Text);
+            double x = double.Parse(textBox1.Text);
+            x = -x;
+
+            textBox1.Text = x.ToString();
+
+
+
+           /* if(calcul.firstnumber>0)
             {
                 //textBox1.Text =( 0 - calcul.firstnumber).ToString();
+
                 textBox1.Text = ("-" + calcul.firstnumber).ToString();
             }
             if (calcul.firstnumber < 0)
             {
                 textBox1.Text = Math.Abs( calcul.firstnumber).ToString();
-            }
+            }*/
         }
     }
 }
